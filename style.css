@@ -1,0 +1,174 @@
+
+
+.navigation
+{
+    background: red;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+header img
+{
+    width: 350px;
+    height: 300px;
+}
+
+body
+{
+    background-color: black;
+}
+
+.navigation a
+{
+    padding: 15px 10px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.navigation a:hover{background-color: white; color: black;}
+
+/* меньше 800px */
+@media all and (max-width: 800px) {
+	.navigation { justify-content: space-around; }
+	.navigation a{ flex-grow:1; /* растягиваться на всю ширину */ }
+    header img
+    {
+        width: 250px;
+        height: 200px;
+    }
+    .people {align-content: space-around;}
+    .czar{margin-bottom: 20px;}
+    .stilov{margin-bottom: 20px;}
+    .kaba{margin-bottom: 20px;}
+    .semen{margin-bottom: 20px;}
+    .ken{margin-bottom: 20px;}
+    .gocha{margin-bottom: 20px;}
+}
+
+@media all and (max-width: 500px) {
+	.navigation { flex-direction: column;}
+    header img
+    {
+        width: 150px;
+        height: 140px;
+    }
+    header{justify-content: center;}
+    .people {flex-direction: column;}
+    .czar{margin-bottom: 20px;}
+    .stilov{margin-bottom: 20px;}
+    .kaba{margin-bottom: 20px;}
+    .semen{margin-bottom: 20px;}
+    .ken{margin-bottom: 20px;}
+    .gocha{margin-bottom: 20px;}
+}
+
+h1{color: white; margin-left: 40px; font-family: fantasy;}
+
+.people
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow:1
+}
+
+.czar{display: flex;}
+.gocha{display: flex;}
+.stilov{display: flex;}
+.semen{display: flex;}
+.ken{display: flex;}
+.kaba{display: flex;}
+
+.name{padding-left: 10px; padding-top: 20px; height: 100px;}
+
+.czar img
+{
+    width: 150px;
+    height: 150px;
+    
+}
+.czar p
+{
+    color: white; 
+    text-align: center;
+    font-size: 14pt;
+    font-family: fantasy;
+}
+
+.gocha img
+{
+    width: 150px;
+    height: 150px;
+    
+}
+.gocha p
+{
+    color: white; 
+    text-align: center;
+    font-size: 14pt;
+    font-family: fantasy;
+}
+
+.stilov img
+{
+    width: 150px;
+    height: 150px;
+    
+}
+.stilov p
+{
+    color: white; 
+    text-align: center;
+    font-size: 14pt;
+    font-family: fantasy;
+}
+
+.kaba img
+{
+    width: 150px;
+    height: 150px;
+    
+}
+.kaba p
+{
+    color: white; 
+    text-align: center;
+    font-size: 14pt;
+    font-family: fantasy;
+}
+
+.ken img
+{
+    width: 150px;
+    height: 150px;
+    
+}
+.ken p
+{
+    color: white; 
+    text-align: center;
+    font-size: 14pt;
+    font-family: fantasy;
+}
+
+.semen img
+{
+    width: 150px;
+    height: 150px;
+    
+}
+.semen p
+{
+    color: white; 
+    text-align: center;
+    font-size: 14pt;
+    font-family: fantasy;
+}
