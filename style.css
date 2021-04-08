@@ -51,6 +51,12 @@ body
     .semen{margin-bottom: 20px;}
     .ken{margin-bottom: 20px;}
     .gocha{margin-bottom: 20px;}
+
+    .text_field{flex-wrap: wrap;}
+    .text_field img{width: 500px; height: 300px;}
+
+    .carousel_container{width: 550px; margin-left: 80px;}
+    .carousel_slide img{width: 550px;}
 }
 
 @media all and (max-width: 500px) {
@@ -68,9 +74,17 @@ body
     .semen{margin-bottom: 20px;}
     .ken{margin-bottom: 20px;}
     .gocha{margin-bottom: 20px;}
+
+    .carousel_container{width: 350px; margin-left: 50px;}
+    .carousel_slide img{width: 370px;}
 }
 
-h1{color: white; margin-left: 40px; font-family: fantasy;}
+@media all and (min-width: 800px){
+    .carousel_container{width: 750px; margin-left: 550px;}
+    .carousel_slide img{width: 770px;height: 500px;}
+}
+
+.our_men{color: white; margin-left: 40px; font-family: fantasy;}
 
 .people
 {
@@ -172,3 +186,52 @@ h1{color: white; margin-left: 40px; font-family: fantasy;}
     font-size: 14pt;
     font-family: fantasy;
 }
+
+hr
+{
+    margin-top: 50px;
+}
+
+.main_styles{color: white; font-family: fantasy; margin-left: 40px;}
+
+.text_field
+{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    color: white;
+}
+
+.text_field img
+{
+    width: 600px;
+    height: 400px;
+}
+
+li
+{
+    font-family: fantasy;
+    padding-bottom: 20px;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+ul{margin-right: 100px;}
+
+.carousel_container
+{
+    
+    border: 5px solid red;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.carousel_slide
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+.examples{color: white; font-family: fantasy; text-align: center;}
