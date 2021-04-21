@@ -35,7 +35,6 @@ body
 
 .navigation a:hover{background-color: white; color: black;}
 
-/* меньше 800px */
 @media all and (max-width: 800px) {
 	.navigation { justify-content: space-around; }
 	.navigation a{ flex-grow:1; /* растягиваться на всю ширину */ }
@@ -55,8 +54,11 @@ body
     .text_field{flex-wrap: wrap;}
     .text_field img{width: 500px; height: 300px;}
 
-    .carousel_container{width: 550px; margin-left: 80px;}
-    .carousel_slide img{width: 550px;}
+    .carousel_container{width: 630px; margin-left: 50px;}
+    .carousel_slide img{width: 630px; height: 500px;}
+
+    .btn{margin-left: 115px; padding-bottom: 50px;}
+    button{width: 250px;height: 25px;}
 }
 
 @media all and (max-width: 500px) {
@@ -75,13 +77,18 @@ body
     .ken{margin-bottom: 20px;}
     .gocha{margin-bottom: 20px;}
 
-    .carousel_container{width: 350px; margin-left: 50px;}
-    .carousel_slide img{width: 370px;}
+    .carousel_container{width: 440px; margin-left: 10px;}
+    .carousel_slide img{width: 440px; height: 300px;}
+
+    .btn{margin-left: 80px; padding-bottom: 50px;}
+    button{width: 150px;height: 25px;}
 }
 
 @media all and (min-width: 800px){
     .carousel_container{width: 750px; margin-left: 550px;}
     .carousel_slide img{width: 770px;height: 500px;}
+    .btn{margin-left: 600px; padding-bottom: 50px;}
+    button{width: 325px;height: 25px;}
 }
 
 .our_men{color: white; margin-left: 40px; font-family: fantasy;}
@@ -222,7 +229,6 @@ ul{margin-right: 100px;}
 {
     
     border: 5px solid red;
-    margin-top: 50px;
     overflow: hidden;
 }
 
@@ -230,6 +236,14 @@ ul{margin-right: 100px;}
 {
     display: flex;
     flex-wrap: nowrap;
+}
+
+button
+{
+    font-family: fantasy;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 10px;
 }
 
 
